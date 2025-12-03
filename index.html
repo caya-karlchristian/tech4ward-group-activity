@@ -4,10 +4,11 @@
     <title>Login | Tech4Ward</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet">
+    <script src="login.js" defer></script>
 </head>
 <body>
 
-    <form action="action_page.php" method="post">
+    <form id="loginForm">
         
         <div class="imgcontainer">
             <img src="images/Tech4Ward Logo.png" alt="Avatar" class="avatar">
@@ -15,10 +16,10 @@
 
         <div class="container">
             <label for="uname">Username</label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
 
             <label for="psw">Password</label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
 
             <button type="submit">Login</button>
             

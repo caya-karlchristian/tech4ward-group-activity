@@ -6,7 +6,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
 
     if (username === "onlingo" && password === "pupt") {
         alert("Login successful!");
-        window.location.href = "homepage.html"; 
+        window.location.href = "landing-page.html"; 
     } else {
         alert("Incorrect username or password.");
     }

@@ -4,7 +4,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
     const username = document.getElementById("uname").value;
     const password = document.getElementById("psw").value;
 
-    if (username === "onlingo" && password === "pupt") {
+    if (username === "omlingo" && password === "pupt") {
         alert("Login successful!");
         window.location.href = "landing-page.html"; 
 
